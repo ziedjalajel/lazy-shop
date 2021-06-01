@@ -17,12 +17,12 @@
   align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
   .App-logo {
     width: 400px;
     height: 500px;
   }
-}
+
 
 
 .h1{
