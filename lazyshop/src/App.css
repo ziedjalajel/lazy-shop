@@ -1,5 +1,5 @@
 .title {
-  background-color: white;
+ 
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -7,14 +7,14 @@
   justify-content: center;
   vertical-align: text-top;
   font-size: calc(10px + 2vmin);
-  color: blue;;
+ 
 }
 
 .App-logo {
-  width: 700px;
-  height: 800px;
+  width: 400px;
+  height: 500px;
   pointer-events: none;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -27,21 +27,7 @@
   font-size: xx-large;
 }
 
-.narray{
-  display: flex;
-  justify-content: space-between;
-}
-.images{
-  width: 300px;
-  height: 100px;
-}
-td{
-  justify-content: space-between;
-align-items: flex-end;
 
-}
-.productimage{
-height: 250px;
-width: 250px;
-justify-content: space-around;
-}
+
+
+

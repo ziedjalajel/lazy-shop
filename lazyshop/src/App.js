@@ -1,26 +1,22 @@
 import products from "./products"
 import Home from "./Components/Home"
+import ProductList from "./Components/ProductList"
 import './App.css';//this is how to add cdd
+import {ThemeProvider} from "styled-components"
+import {theme,GlobalStyle} from "./styles"
 
 function App() {
-  const newArr = products.map((product)=>(
-  <div> 
-    <p><img className="productimage" src={product.image}/></p>
-    <p>{product.name}</p>
-    <p>{product.price} JD</p>
-   
-  </div>
-  ));
+ 
 
   return (//this what will render on the screen . and it's not html it's called jsx(javascript XML) and you can right js in it 
+    <ThemeProvider theme={theme}>
     <div className="title">
-    <Home/>
-         
-         <div class="narray">{newArr}</div> 
-          
-        
-    
+    <GlobalStyle/>
+    <Home />
+    <ProductList />     
+
     </div>
+    </ThemeProvider>
   );
 }
 
